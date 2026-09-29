@@ -1,4 +1,4 @@
-# Projeto Aplicado IV — previsão diária de aluguéis de bicicletas em Londres
+# Projeto Aplicado IV:  previsão diária de aluguéis de bicicletas em Londres
 
 **Autor:** Kayo Oliveira Nukui, RA 10356420.
 
