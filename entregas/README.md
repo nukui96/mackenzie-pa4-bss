@@ -1,8 +1,7 @@
-# Documentos acadêmicos
+# Documento acadêmico
 
-Cada PDF registra o conteúdo acumulado até sua etapa, com correções pertinentes às anteriores. Os arquivos usam o modelo institucional da faculdade, inclusive sua formatação e identidade visual.
+O projeto é entregue em versão única cumulativa, consolidando em um único documento oficial todo o histórico e os avanços das etapas, com as devidas correções incorporadas.
 
-- `etapa_01/`: proposta inicial.
-- `etapa_02/`: proposta revisada, referencial teórico de até uma página, pipeline discutido e cronograma detalhado.
+- `[PA4] Previsao Diaria London Bike Sharing.docx`: versão oficial consolidada no modelo institucional (acumula as Etapas 1, 2 e 3).
 
-Os notebooks correspondentes estão em `../notebooks/`.
+Os notebooks correspondentes de cada fase do projeto estão disponíveis na pasta `../notebooks/`.
