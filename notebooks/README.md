@@ -1,7 +1,7 @@
 # Notebooks
 
-- `01_cd_projeto_aplicado_IV_doc_etapa1.ipynb`: proposta e inspeção inicial da base.
-- `02_cd_projeto_aplicado_IV_doc_etapa2.ipynb`: proposta com referencial teórico, pipeline ilustrado e cronograma por fases.
-- `03_cd_projeto_aplicado_IV_doc_etapa3.ipynb`: análise exploratória aprofundada, preparação causal da série diária, partição cronológica e modelagem estatística.
+- **`03_cd_projeto_aplicado_IV_doc_etapa3.ipynb` (ponto de entrada do fluxo completo):** executa ponta a ponta a ingestão e auditoria dos dados brutos, a agregação diária causal (`37.697` em `02/09/2016`), a EDA (gráficos, decomposição `s=7`, ACF/PACF, ADF e KPSS), a partição cronológica (`640` treino / `91` teste), a modelagem *walk-forward* (*Seasonal Naive*, Holt-Winters Aditivo e SARIMA) e a tabela de métricas.
+- `01_cd_projeto_aplicado_IV_doc_etapa1.ipynb`: versão histórica da Etapa 1 (proposta e inspeção inicial da base).
+- `02_cd_projeto_aplicado_IV_doc_etapa2.ipynb`: versão histórica da Etapa 2 (referencial, pipeline e auditoria preliminar).
 
-Para reproduzir a etapa 2, instale as dependências de `../requirements.txt`, coloque `london_merged.csv` em `../data/raw/` e execute todas as células do notebook 02 em ordem. A análise exploratória aprofundada e os modelos ficam para as etapas seguintes.
+Para reproduzir o fluxo completo localmente, utilize **Python 3.12**, instale as dependências de `../requirements.txt`, confirme a presença de `london_merged.csv` em `../data/raw/` e execute todas as células de `03_cd_projeto_aplicado_IV_doc_etapa3.ipynb` em ordem.
